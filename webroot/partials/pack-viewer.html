@@ -1,0 +1,12 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+		<img ng-src="{{pack.getCurrentCard().imageUrl}}" class="phone"
+			ng-click="next()">
+		<p>{{pack.currentIndex}}</p>
+		<p>ID:{{pack.getCurrentCard().id}}</p>
+		<p>in target:
+			{{pack.getCurrentCard().translations[targetLanguage]}}</p>
+		<p>in
+			native:{{pack.getCurrentCard().translations[nativeLanguage]}}</p>
+	</div>
+</div>

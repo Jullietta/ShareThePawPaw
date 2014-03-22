@@ -1,0 +1,28 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+
+TargetLanguage
+		<select ng-model="targetLanguage">
+			<option ng-repeat="language in languages" value="{{language.id}}">{{language.label}}</option>
+		</select> 
+	Native
+		<select ng-model="nativeLanguage">
+			<option ng-repeat="language in languages" value="{{language.id}}">{{language.label}}</option>
+		</select>
+
+
+		<div class="span10">
+			<ul class="phones">
+				<li ng-repeat="pack in packs" class="thumbnail phone-listing">
+
+					<a href="#/pack/{{pack.id}}/{{targetLanguage}}/{{nativeLanguage}}" class="thumb"><img
+						ng-src="{{pack.imageUrl}}"></a> 
+						
+						<a href="#/pack/{{pack.id}}/{{targetLanguage}}/{{nativeLanguage}}" >{{pack.id}}</a>
+						<a href="#/packquiz/{{pack.id}}/{{targetLanguage}}/{{nativeLanguage}}" >Quiz</a>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+</div>

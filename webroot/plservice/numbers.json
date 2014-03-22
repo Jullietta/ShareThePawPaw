@@ -1,0 +1,18 @@
+{
+ 	"id": "numbers",
+ 	"cards": [ 
+    {
+        "id": "one", 
+        "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg", 
+        "photocredit": "photocredit", 
+     	"translations":{"fi": "yksi","fr":"un"}
+    }, 
+    {
+        "id": "two", 
+        "imageUrl": "img/phones/motorola-xoom.0.jpg", 
+        "photocredit": "photocredit",
+        "translations":{"fi": "kaksi","fr":"deux"}
+    } 
+  ]
+   
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "id": "animals", 
+        "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg", 
+        "purchaseType": "FREE" 
+    }, 
+    {
+        "id": "numbers", 
+        "imageUrl": "img/phones/motorola-xoom.0.jpg", 
+        "purchaseType": "FREE"
+    }
+]

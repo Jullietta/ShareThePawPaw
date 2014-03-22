@@ -1,0 +1,8 @@
+# Turn on URL rewriting
+RewriteEngine On
+
+# Installation directory
+RewriteBase /
+
+RewriteRule ^ws/goodies/?$ /ws.php?find=all [L]
+RewriteRule ^ws/goodie/([0-9]+)/?$ /ws.php?find=$1 [L]

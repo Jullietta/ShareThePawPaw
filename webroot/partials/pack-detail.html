@@ -1,0 +1,15 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+
+		<div class="span10">
+			<ul class="phones">
+				<li ng-repeat="card in pack.cards" class="thumbnail phone-listing"><a
+					href="#/phones/{{card.id}}" class="thumb"><img
+						ng-src="{{card.imageUrl}}"></a> <a href="#/phones/{{card.id}}">{{card.id}}</a>
+											
+					<p>{{card.translations["fi"]}}</p></li>
+			</ul>
+
+		</div>
+	</div>
+</div>

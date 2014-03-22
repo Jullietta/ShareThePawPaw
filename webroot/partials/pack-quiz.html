@@ -1,0 +1,18 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+		<img ng-src="{{pack.getCurrentCard().imageUrl}}" class="phone" ng-click="next()">
+		<p>{{pack.currentIndex}}</p>
+		<p>ID:{{pack.getCurrentCard().id}}</p>
+		<p>in target: {{pack.getCurrentCard().translations[targetLanguage]}}</p>
+		<p>in native:{{pack.getCurrentCard().translations[nativeLanguage]}}</p>
+
+		<ul class="phone-thumbs">
+			<li ng-repeat="card in pack.getShuffledCards()"><img
+				ng-src="{{card.imageUrl}}" ng-click="checkCard(card)"></li>
+		</ul>
+
+		<img src="img/xmark.png" class="qmark" ng-show="badAnswer" />
+
+
+	</div>
+</div>

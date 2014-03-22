@@ -1,0 +1,41 @@
+body{background-color: #F7862D;
+}
+
+#search{ width:100%;
+		border: solid 2px #0095AA;
+		margin-top: 8%;
+		background-color: #f48f4a;
+		background-image:url('http://www.sharethepawpaw.com/images/search.png');
+		background-repeat: no-repeat;
+		background-position:right; 
+		height:30px;
+		color: #000;
+		}
+
+#head{width: 300px;
+	 margin: 0 auto;
+	}
+
+h2{margin: 0 auto;
+	font-size:1.5em;
+	background-color: #0095AA;
+	padding:2%;}
+
+#footer{width:140px;
+	margin: 0 auto;
+	position:absolute;
+	padding-top: 100px;
+	bottom:0;
+	margin-left: 100px;}
+
+img{width:32px;
+	margin:0 auto;
+	display:block;
+	padding-top: 5%;}
+
+#tag{width:32px;
+	margin:0 auto;
+	display:block;}
+
+
+

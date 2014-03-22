@@ -1,0 +1,26 @@
+
+
+<div class="navbar navbar-default navbar-fixed-top"
+	style="background-color: #F7862D; border: none;">
+	<div id="head" class="container">
+
+		<input id="search" type="text" placeholder="Find a Goodie"
+			ng-model="query"></input>
+
+	</div>
+</div>
+
+
+
+<google-map center="map.center" zoom="map.zoom" draggable="true"
+	mark-click="false"> <markers> <marker
+	ng-repeat="marker in markers|filter:query" coords="marker"
+	options="marker.options" icon="marker.icon" click="showMarker(marker)">
+<window isIconVisibleOnClick="false">
+		<p><strong>Name:</strong> {{marker.name}}</p>
+		<p><strong>Notes:</strong> {{marker.notes}}</p>
+		<p><strong>Status:</strong> {{marker.status}}</p>
+		<p><strong>Date added:</strong> {{marker.date_added}}</p>
+</window> </marker> </markers> </google-map>
+
+

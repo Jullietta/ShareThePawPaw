@@ -1,0 +1,29 @@
+{
+ 	"id": "animals",
+ 	"cards": [ 
+    {
+        "id": "elephant", 
+        "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg", 
+        "photocredit": "photocredit", 
+     	"translations":{"en":"elephant","fi": "norsu","fr":"elephanttt"}
+    }, 
+    {
+        "id": "dog", 
+        "imageUrl": "img/phones/motorola-xoom.0.jpg", 
+        "photocredit": "photocredit",
+        "translations":{"en":"dog","fi": "koira","fr":"chien"}
+    }, 
+    { 
+        "id": "cat", 
+        "imageUrl": "img/phones/motorola-atrix-4g.0.jpg", 
+		"photocredit": "photocredit",
+ 		"translations":{"en":"cat","fi": "kissa","fr":"chat"}
+    }, 
+    {
+    	"id": "horse", 
+        "imageUrl": "img/phones/dell-streak-7.0.jpg", 
+ 		"photocredit": "photocredit",
+ 		"translations":{"en":"horse","fi": "hevonen","fr":"cheval"}
+    } 
+   ]
+}
